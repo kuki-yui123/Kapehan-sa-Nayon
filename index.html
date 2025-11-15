@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAPEHAN SA NAYON - Artisan Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="KAPEHAN SA NAYON Logo" class="logo-image">
+                <span>KAPEHAN SA NAYON</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p style="font-size: 1.1rem; color: var(--cream); margin-bottom: 1rem; font-weight: 300;">We've got your
+                favorite coffee at</p>
+            <h1 class="hero-title">Kapehan sa Nayon</h1>
+            <p class="hero-subtitle">It is best to start your day with a cup of coffee. Time and coffee help us to do
+                the best discounts coffee you will ever have. We provide the best for our customers.</p>
+            <div class="hero-buttons">
+                <a href="location.html" class="btn btn-primary">VISIT US</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="images/1763192630909.jpg" alt="Our Story">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h2 class="section-title">Our Story</h2>
+                    <p>Founded in 2024, our café was created as a cozy and warm space where everyone can relax, unwind,
+                        and enjoy quality coffee without the high cost. We believe that great flavors shouldn't be
+                        expensive, so every cup is crafted with care, comfort, and community in mind.</p>
+                    <p>Whether you're studying, catching up with friends, or simply taking a break, our café offers a
+                        welcoming atmosphere that feels like home—where good coffee and good moments come together.</p>
+                    <a href="#popular-menu" class="btn btn-primary">Explore Our Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Preview Section -->
+    <section class="menu-preview" id="popular-menu"></section>
+    <div class="container">
+        <h1 class="section-title">Our Popular Menu</h2>
+            <p class="section-subtitle">Discover our handcrafted coffee creations</p>
+
+            <div class="menu-slider-container">
+                <button class="slider-btn prev-btn" id="prevBtn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="menu-slider" id="menuSlider">
+                    <div class="menu-slide">
+                        <div class="menu-card">
+                            <div class="menu-card-image">
+                                <img src="images/cappuccino.jpg" alt="Cappuccino">
+                            </div>
+                            <div class="menu-card-content">
+                                <h3>Strawberry Matcha</h3>
+                                <p class="price">80</p>
+                                <p class="description">Sweet strawberry blended with earthy matcha</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-slide">
+                        <div class="menu-card">
+                            <div class="menu-card-image">
+                                <img src="images/latte.jpg" alt="Latte">
+                            </div>
+                            <div class="menu-card-content">
+                                <h3>Caffe Latte</h3>
+                                <p class="price">₱75</p>
+                                <p class="description">Creamy espresso with steamed milk</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-slide">
+                        <div class="menu-card">
+                            <div class="menu-card-image">
+                                <img src="images/mocha.jpg" alt="Mocha">
+                            </div>
+                            <div class="menu-card-content">
+                                <h3>Mocha</h3>
+                                <p class="price">₱85</p>
+                                <p class="description">Chocolatey drink with a touch of espresso.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-slide">
+                        <div class="menu-card">
+                            <div class="menu-card-image">
+                                <img src="images/americano.jpg" alt="Americano">
+                            </div>
+                            <div class="menu-card-content">
+                                <h3>Americano</h3>
+                                <p class="price">₱50</p>
+                                <p class="description">Espresso diluted with hot water</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-slide">
+                        <div class="menu-card">
+                            <div class="menu-card-image">
+                                <img src="images/cold-brew.jpg" alt="Cold Brew">
+                            </div>
+                            <div class="menu-card-content">
+                                <h3>Matcha Latte</h3>
+                                <p class="price">₱80</p>
+                                <p class="description">Earthy and smooth Japanese green tea</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="slider-btn next-btn" id="nextBtn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="features">
+                <div class="container">
+                    <h2 class="section-title">Why Choose Us</h2>
+                    <div class="features-grid">
+                        <div class="feature-card" data-aos="fade-up">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Organic Beans</h3>
+                            <p>100% organic, ethically sourced coffee beans from sustainable farms</p>
+                        </div>
+                        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                            <i class="fas fa-fire"></i>
+                            <h3>Freshly Brewed Coffee</h3>
+                            <p>Every cup is freshly brewed to perfection for maximum flavor and aroma</p>
+                        </div>
+                        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                            <i class="fas fa-heart"></i>
+                            <h3>Made with Love</h3>
+                            <p>Every cup is crafted by our expert baristas with care</p>
+                        </div>
+                        <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                            <i class="fas fa-tree"></i>
+                            <h3>Natural Environment</h3>
+                            <p>Nature café setting with free WiFi, comfortable seating, and a peaceful vibe</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <h3>KAPEHAN SA NAYON</h3>
+                            <p>Crafting perfect moments, one cup at a time.</p>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/profile.php?id=61568645367209" target="_blank"><i
+                                        class="fab fa-facebook"></i></a>
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="location.html">Location</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-section">
+                            <h4>Contact</h4>
+                            <p><i class="fas fa-phone"></i> <a href="tel:+639949255644">0994 925 5644</a></p>
+                            <p><i class="fas fa-envelope"></i> <a href="https://www.facebook.com/profile.php?id=61568645367209">Kapehan sa Nayon</a></p>
+                            <p><i class="fas fa-map-marker-alt"></i> Kalye Maligaya, Victoria, Laguna</p>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>&copy; 2025 KAPEHAN SA NAYON. All rights reserved.</p>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- Scroll to Top Button -->
+            <button class="scroll-top" id="scrollTop">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+
+            <script src="script.js"></script>
+</body>
+
+</html>
